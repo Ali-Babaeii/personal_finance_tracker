@@ -1,7 +1,6 @@
 # 💰 Personal Finance Tracker (Flutter)
 
-A simple and clean **Personal Finance Tracker** built with **Flutter**, using  
-**Bloc (Cubit)** for state management and **Hive** for local persistence.
+A simple and clean **Personal Finance Tracker** built with **Flutter**, using  **Bloc (Cubit)** for state management and **Hive** for local persistence.
 
 ---
 
@@ -31,17 +30,15 @@ A simple and clean **Personal Finance Tracker** built with **Flutter**, using
 
 ## 📁 Project Structure
 
+```text
 lib/
 ├── bloc/
 │   ├── theme_cubit.dart 
 │   └── transaction_cubit.dart
-│
 ├── models/
 │   └── transaction.dart
-│
 ├── repositories/
 │   └── transaction_repository.dart
-│
 ├── screens/
 │   └── home/
 │       ├── home_screen.dart
@@ -53,5 +50,4 @@ lib/
 │           ├── filter_section.dart
 │           ├── spending_chart.dart
 │           └── transaction_table.dart
-│
 └── main.dart
